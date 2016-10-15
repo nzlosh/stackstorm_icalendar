@@ -1,0 +1,7 @@
+---
+profiles:
+  "profile_name":
+    url: "http://calendar.example.com"
+  "another_profile":
+    url: "https://another-calendar.example.com"
+

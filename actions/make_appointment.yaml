@@ -1,0 +1,15 @@
+---
+  name: "make_appointment"
+  runner_type: "run-python"
+  description: "Create a new appointment in the calendar"
+  enabled: true
+  entry_point: "make_appointment.py"
+  parameters:
+    subject:
+      type: string
+      description: "Subject of the appointment."
+      required: true
+    date:
+      type: object
+      description: "Date/time for the appointment to occur."
+      required: true
